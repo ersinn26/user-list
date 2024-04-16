@@ -1,29 +1,40 @@
-.list-container{
-    background-color: aliceblue;
-    width: 30%;
-    margin: auto;
-    padding: 30px;
-
+.list-container {
+  background-color: aliceblue;
+  width: 400px;
+  margin: auto;
+  padding: 30px;
 }
 
-.list-item{
-    display: flex;
-    align-items: center;
-   
-    padding: 10px;
-    margin-bottom: 10px;
+.list-container h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.list-item img{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin-right: 10px;
+.total {
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+  font-size: 18px;
 }
 
-.list-info{
-    display: flex;
-    flex-direction: column;
-    font-style: italic;
-    font-size: 14px;
+.list-item {
+  display: flex;
+  align-items: center;
+
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.list-item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.list-info {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  font-size: 14px;
 }

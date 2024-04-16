@@ -1,12 +1,16 @@
 import data from "../helper/data";
 import React from "react";
 import "./Lİststyle.css"
+import { useState } from "react";
 
 const List = () => {
+ 
+
+
   return (
     <div className="list-container">
       <h2>Employee List</h2>
-      <p>Total: {data.length}</p>
+      <p className="total">Total: {data.length}</p>
       {data.map((user, id) => (
         <div className="list-item" key={id}>
           <div>
@@ -19,8 +23,8 @@ const List = () => {
           </div>
         </div>
       ))}
-      <button>Prev</button>
-      <button>Next</button>
+      <button >Prev</button>
+      <button >Next</button>
     </div>
   );
 };
